@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "pa": "mv public/index.html index; mv src/index.js src/index; cp src/pa/index.html public/index.html; cp src/pa/index.js src/index.js; GENERATE_SOURCEMAP=false ../node_modules/.bin/react-scripts build; rm -rf pa/docs; mv build pa/docs; mv index public/index.html; mv src/index src/index.js",
     "test": "../node_modules/.bin/react-scripts test --env=jsdom",
     "start": "../node_modules/.bin/react-scripts start",
     "build": "GENERATE_SOURCEMAP=false ../node_modules/.bin/react-scripts build",
