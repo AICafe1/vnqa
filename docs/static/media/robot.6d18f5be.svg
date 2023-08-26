@@ -1,0 +1,18 @@
+<svg
+  width="16"
+  height="16"
+  fill="#e4bea0"
+  viewBox="0 0 16 16"
+  xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="m 12.771187,2.851695 a 0.76694915,0.75 0 0 1 0.766949,0.75 v 9 a 0.76694915,0.75 0 0 1 -0.766949,0.749999 H 3.5677966 A 0.76694915,0.75 0 0 1 2.8008474,12.601695 v -9 a 0.76694915,0.75 0 0 1 0.7669492,-0.75 z m -9.2033904,-0.75 a 1.5338983,1.5 0 0 0 -1.5338983,1.5 v 9 a 1.5338983,1.5 0 0 0 1.5338983,1.5 h 9.2033904 a 1.5338983,1.5 0 0 0 1.533898,-1.5 v -9 a 1.5338983,1.5 0 0 0 -1.533898,-1.5 z"
+    style="stroke-width:0.8" />
+  <text
+    style="font-size:9px;fill:#e4bea0;stroke-width:0.8"
+    x="3.5"
+    y="11.3"><tspan
+      id="tspan166"
+      x="3.5"
+      y="11.3"
+      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;stroke-width:0.8">AI</tspan></text>
+</svg>

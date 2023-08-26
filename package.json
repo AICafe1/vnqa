@@ -1,0 +1,43 @@
+{
+  "name": "vnqa",
+  "version": "1.0.0",
+  "description": "VN Quant Analysis",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "pa": "mv public/index.html index; mv src/index.js src/index; cp src/pa/index.html public/index.html; cp src/pa/index.js src/index.js; GENERATE_SOURCEMAP=false PUBLIC_URL=https://aicafe1.github.io/vnqa-pa/ react-scripts build; rm -rf pa/docs; mv build pa/docs; mv index public/index.html; mv src/index src/index.js",
+    "sa": "mv public/index.html index; mv src/index.js src/index; cp src/sa/index.html public/index.html; cp src/sa/index.js src/index.js; GENERATE_SOURCEMAP=false PUBLIC_URL=https://aicafe1.github.io/vnqa-sa/ react-scripts build; rm -rf sa/docs; mv build sa/docs; mv index public/index.html; mv src/index src/index.js",
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "deploy": "GENERATE_SOURCEMAP=false react-scripts build; mv docs/CNAME build/; mv docs/*.zip build; rm -rf docs; mv build docs; cp docs/index.html docs/404.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AICafe1/vnqa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AICafe1/vnqa/issues"
+  },
+  "homepage": ".",
+  "dependencies": {
+    "jszip": "^3.7.1",
+    "papaparse": "^5.3.1",
+    "react": "^16.12.0",
+    "react-chat-widget": "^3.0.5",
+    "react-dom": "^16.12.0",
+    "react-pivottable": "^0.11.0",
+    "react-plotly.js": "^2.5.1",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^5.2.1",
+    "react-table": "^7.7.0",
+    "react-youtube": "^7.14.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.3.0"
+  }
+}
